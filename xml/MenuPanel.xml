@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<component name="menuPanelScene" extends="Scene" >
+
+    <script type="text/brightscript" uri="pkg:/source/menuPanelScript.brs" />
+
+    <children>
+        <Rectangle 
+            id="panelBackground" 
+            color="0x0000FFFF" 
+            width="500" 
+            height="1000" 
+            translation="[0,0]" />
+
+        <ListPanel
+            id="MainMenuListPanel"
+            translation="[0,0]"
+            width = "500"
+            height = "1000"
+            list="MainMenuList" />
+
+        <LabelList
+            id="MainMenuList"
+            translation="[10,20]"
+            itemSize="[440,48]"
+            itemSpacing="[0,0]"
+            vertFocusAnimationStyle = "floatingFocus" />
+    </children>
+
+</component>
