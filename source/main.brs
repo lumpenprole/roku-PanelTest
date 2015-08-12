@@ -8,7 +8,6 @@ sub showPanelScreen()
     m.port = CreateObject("roMessagePort")
     screen.setMessagePort(m.port)
     scene = screen.CreateScene("menuPanelScene")
-    ?"in showpanelscreen"
     screen.show()
 
     while(true)
